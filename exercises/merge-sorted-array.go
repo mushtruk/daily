@@ -1,6 +1,7 @@
 package exercises
 
 import (
+	"fmt"
 	"sort"
 )
 
@@ -12,9 +13,11 @@ var (
 )
 
 func merge(nums1 []int, m int, nums2 []int, n int) {
-	var result = make([]int, 0, m+n)
-	result = append(result, nums1[:m]...)
-	result = append(result, nums2[:n]...)
-	sort.Ints(result)
-	copy(nums1, result)
+	nums1 = append(nums1[:m], nums2[:n]...)
+	sort.Ints(nums1)
+}
+
+func Run() {
+	merge(nums1, m, nums2, n)
+	fmt.Print(nums1)
 }
