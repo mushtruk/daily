@@ -1,7 +1,7 @@
 package main
 
-import "github.com/mushtruk/daily/exercises"
+import "fmt"
 
 func main() {
-	exercises.Run()
+	fmt.Print(removeElement(nums, val))
 }
