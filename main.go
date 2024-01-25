@@ -1,9 +1,10 @@
 package main
 
-import "fmt"
-
-var _nums = []int{3, 2, 3}
+var (
+	_nums = []int{1, 2, 3, 4, 5, 6, 7}
+	k     = 3
+)
 
 func main() {
-	fmt.Print(majorityElement(_nums))
+	rotate(_nums, k)
 }
