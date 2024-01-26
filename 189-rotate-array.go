@@ -3,6 +3,7 @@ package main
 // final O(n) ver
 func rotate(nums []int, k int) []int {
 	n := len(nums)
+	k %= n
 
 	reverse := func(start, end int) {
 		for start < end {

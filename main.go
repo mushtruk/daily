@@ -1,10 +1,9 @@
 package main
 
-var (
-	_nums = []int{1, 2, 3, 4, 5, 6, 7}
-	k     = 3
-)
+import "fmt"
+
+var prices = []int{7, 1, 5, 3, 6, 4}
 
 func main() {
-	rotate(_nums, k)
+	fmt.Print(maxProfit(prices))
 }
