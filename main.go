@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-var prices = []int{7, 1, 5, 3, 6, 4}
+var _nums = []int{2, 3, 1, 1, 4}
 
 func main() {
-	fmt.Print(maxProfit2(prices))
+	fmt.Print(canJump(_nums))
 }
