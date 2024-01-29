@@ -1,5 +1,6 @@
 package main
 
+// mr - 2, 
 // []int{2, 3, 1, 1, 4}
 
 func canJump(nums []int) bool {
