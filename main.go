@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-var _nums = []int{2, 3, 1, 1, 4}
+var citations = []int{3, 0, 6, 1, 5}
 
 func main() {
-	fmt.Print(jump(_nums))
+	fmt.Print(hIndex(citations))
 }
