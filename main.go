@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-var citations = []int{3, 0, 6, 1, 5}
+var _nums = []int{1, 2, 3, 4}
 
 func main() {
-	fmt.Print(hIndex(citations))
+	fmt.Print(productExceptSelf(_nums))
 }
