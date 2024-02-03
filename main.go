@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print(canCompleteCircuit(gas, cost))
+	fmt.Print(candy(ratings))
 }
