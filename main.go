@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print(romanToInt(s))
+	fmt.Print(intToRoman(num))
 }
