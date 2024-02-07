@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print(intToRoman(num))
+	fmt.Print(lengthOfLastWord(str))
 }
