@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print(reverseWords(regularString))
+	fmt.Print(convert(toZigZag, numRows))
 }
