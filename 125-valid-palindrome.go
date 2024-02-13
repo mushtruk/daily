@@ -7,6 +7,7 @@ import (
 
 var sp = "A man, a plan, a canal: Panama"
 
+// v2
 func isPalindrome(s string) bool {
 	var b strings.Builder
 	for _, c := range s {
@@ -24,3 +25,25 @@ func isPalindrome(s string) bool {
 
 	return true
 }
+
+// v1
+
+// func isPalindrome(s string) bool {
+// 	str := strings.ToLower(removeNonAlphanumeric(s))
+// 	reversedStr := new(strings.Builder)
+
+// 	for i := len(str) - 1; i >= 0; i-- {
+// 		reversedStr.WriteByte(str[i])
+// 	}
+
+// 	return str == reversedStr.String()
+// }
+
+// func removeNonAlphanumeric(s string) string {
+// 	reg, err := regexp.Compile("[^a-zA-Z0-9]+")
+// 	if err != nil {
+// 		panic(err)
+// 	}
+
+// 	return reg.ReplaceAllString(s, "")
+// }
