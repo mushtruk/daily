@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print(isPalindrome(sp))
+	fmt.Print(isSubsequence(isSubsequenceInput, isSubsequenceTarget))
 }
