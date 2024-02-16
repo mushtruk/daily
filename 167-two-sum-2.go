@@ -1,11 +1,11 @@
 package main
 
-var (
-	numbers = []int{2, 3, 4}
-	target  = 6
-)
+// var (
+// 	numbers = []int{2, 3, 4}
+// 	target  = 6
+// )
 
-func twoSum(numbers []int, target int) []int {
+func TwoSum(numbers []int, target int) []int {
 	index1, index2 := 0, len(numbers)-1
 
 	for index1 < index2 {

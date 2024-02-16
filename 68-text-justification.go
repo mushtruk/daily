@@ -4,12 +4,12 @@ import (
 	"strings"
 )
 
-var (
-	words    = []string{"What", "must", "be", "acknowledgment", "shall", "be"}
-	maxWidth = 16
-)
+// var (
+// 	words    = []string{"What", "must", "be", "acknowledgment", "shall", "be"}
+// 	maxWidth = 16
+// )
 
-func fullJustify(words []string, maxWidth int) []string {
+func FullJustify(words []string, maxWidth int) []string {
 	result := make([]string, 0)
 
 	rows := divideIntoRows(words, maxWidth)

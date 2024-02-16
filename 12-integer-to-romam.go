@@ -21,10 +21,10 @@ var (
 		{4, "IV"},
 		{1, "I"},
 	}
-	num = 1994
+	Num = 1994
 )
 
-func intToRoman(num int) string {
+func IntToRoman(num int) string {
 	romanStr := new(strings.Builder)
 	for num > 0 {
 		for _, pair := range intToRomanMap {

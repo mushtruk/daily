@@ -1,6 +1,9 @@
+//go:build ignore
+// +build ignore
+
 package main
 
-func productExceptSelf(nums []int) []int {
+func ProductExceptSelf(nums []int) []int {
 	n := len(nums)
 	answer := make([]int, n)
 

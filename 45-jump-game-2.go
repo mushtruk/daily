@@ -2,7 +2,7 @@ package main
 
 // []int{2, 3, 1, 1, 4}
 
-func jump(nums []int) int {
+func Jump(nums []int) int {
 	var jumps, maxReach, nextMaxReach int
 
 	for i, num := range nums {

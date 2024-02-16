@@ -4,9 +4,9 @@ import (
 	"strings"
 )
 
-var regularString = "the sky is blue"
+// var regularString = "the sky is blue"
 
-func reverseWords(s string) string {
+func ReverseWords(s string) string {
 	words := strings.Fields(s)
 	reversed := make([]string, 0, len(words))
 

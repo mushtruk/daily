@@ -9,12 +9,7 @@ package main
 // The remaining elements of nums are not important as well as the size of nums.
 // Return k.
 
-var (
-	nums = []int{3, 2, 2, 3}
-	val  = 3
-)
-
-func removeElement(nums []int, val int) int {
+func RemoveElement(nums []int, val int) int {
 	for i := len(nums) - 1; i >= 0; i-- {
 		if nums[i] == val {
 			nums[i] = nums[len(nums)-1]

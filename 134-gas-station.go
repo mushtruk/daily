@@ -1,11 +1,11 @@
 package main
 
-var (
-	gas  = []int{2, 3, 4}
-	cost = []int{3, 4, 3}
-)
+// var (
+// 	gas  = []int{2, 3, 4}
+// 	cost = []int{3, 4, 3}
+// )
 
-func canCompleteCircuit(gas []int, cost []int) int {
+func CanCompleteCircuit(gas []int, cost []int) int {
 	var totalTank, currentTank, startStation int
 
 	for i := range gas {

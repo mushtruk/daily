@@ -4,7 +4,7 @@ package main
 // it works unless there are majority element appears at least len/2
 // otherwise second
 
-func majorityElement(nums []int) int {
+func MajorityElement(nums []int) int {
 	var candidate, count int
 
 	for _, num := range nums {

@@ -1,8 +1,8 @@
 package main
 
-var ratings = []int{1, 2, 2}
+// var ratings = []int{1, 2, 2}
 
-func candy(ratings []int) int {
+func Candy(ratings []int) int {
 	candies := make([]int, len(ratings))
 
 	candies[0] = 1

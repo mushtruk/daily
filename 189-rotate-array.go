@@ -1,7 +1,7 @@
 package main
 
 // final O(n) ver
-func rotate(nums []int, k int) []int {
+func Rotate(nums []int, k int) []int {
 	n := len(nums)
 	k %= n
 

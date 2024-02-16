@@ -1,11 +1,11 @@
 package main
 
-var (
-	isSubsequenceInput  = "abc"
-	isSubsequenceTarget = "ahbgdc"
-)
+// var (
+// 	isSubsequenceInput  = "abc"
+// 	isSubsequenceTarget = "ahbgdc"
+// )
 
-func isSubsequence(s string, t string) bool {
+func IsSubsequence(s string, t string) bool {
 	if len(s) == 0 {
 		return true
 	}

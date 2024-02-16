@@ -1,9 +1,9 @@
 package main
 
-// mr - 2, 
+// mr - 2,
 // []int{2, 3, 1, 1, 4}
 
-func canJump(nums []int) bool {
+func CanJump(nums []int) bool {
 	var maxReach int
 
 	for i, num := range nums {
@@ -15,9 +15,5 @@ func canJump(nums []int) bool {
 			maxReach = num + i
 		}
 	}
-	if maxReach >= len(nums)-1 {
-		return true
-	}
-
-	return false
+	return maxReach >= len(nums)-1
 }

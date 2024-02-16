@@ -1,11 +1,6 @@
 package main
 
-var (
-	toZigZag = "PAYPALISHIRING"
-	numRows  = 3
-)
-
-func convert(s string, numRows int) string {
+func Convert(s string, numRows int) string {
 	if numRows == 1 || len(s) <= numRows {
 		return s
 	}

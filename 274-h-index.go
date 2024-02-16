@@ -7,7 +7,7 @@ import (
 // []int{3, 0, 6, 1, 5}
 // SORTED: [0 1 3 5 6]
 
-func hIndex(citations []int) int {
+func HIndex(citations []int) int {
 	sort.Sort(sort.Reverse(sort.IntSlice(citations)))
 
 	for i, c := range citations {

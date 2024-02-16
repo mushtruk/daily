@@ -1,7 +1,7 @@
 package main
 
 var (
-	s        = "III"
+	S        = "III"
 	romanMap = map[byte]int{
 		'I': 1,
 		'V': 5,
@@ -13,7 +13,7 @@ var (
 	}
 )
 
-func romanToInt(s string) int {
+func RomanToInt(s string) int {
 	total := 0
 	prevValue := 0
 	for i := 0; i < len(s); i++ {
