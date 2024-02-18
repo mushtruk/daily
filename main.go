@@ -2,8 +2,11 @@ package main
 
 import "fmt"
 
-var nums = []int{-1, 0, 1, 2, -1, -4}
+var (
+	ransomNote = "aa"
+	magazine   = "ab"
+)
 
 func main() {
-	fmt.Print(ThreeSum(nums))
+	fmt.Print(CanConstruct(ransomNote, magazine))
 }
