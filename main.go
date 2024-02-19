@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 var (
-	ransomNote = "aa"
-	magazine   = "ab"
+	s = "foo"
+	t = "bar"
 )
 
 func main() {
-	fmt.Print(CanConstruct(ransomNote, magazine))
+	fmt.Print(IsIsomorphic(s, t))
 }
