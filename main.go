@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 var (
-	s = "foo"
-	t = "bar"
+	pattern = "abba"
+	s       = "dog cat cat dog"
 )
 
 func main() {
-	fmt.Print(IsIsomorphic(s, t))
+	fmt.Print(WordPattern(pattern, s))
 }
