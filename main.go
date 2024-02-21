@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 var (
-	pattern = "abba"
-	s       = "dog cat cat dog"
+	s = "anagram"
+	t = "nagaram"
 )
 
 func main() {
-	fmt.Print(WordPattern(pattern, s))
+	fmt.Print(IsAnagram(s, t))
 }
