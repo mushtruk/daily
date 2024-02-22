@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 var (
-	s = "anagram"
-	t = "nagaram"
+	nums   = []int{2, 3, 4}
+	target = 6
 )
 
 func main() {
-	fmt.Print(IsAnagram(s, t))
+	fmt.Print(TwoSum(nums, target))
 }

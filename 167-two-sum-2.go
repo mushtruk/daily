@@ -5,7 +5,7 @@ package main
 // 	target  = 6
 // )
 
-func TwoSum(numbers []int, target int) []int {
+func TwoSum2(numbers []int, target int) []int {
 	index1, index2 := 0, len(numbers)-1
 
 	for index1 < index2 {
