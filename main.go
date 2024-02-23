@@ -2,11 +2,8 @@ package main
 
 import "fmt"
 
-var (
-	nums   = []int{2, 3, 4}
-	target = 6
-)
+var n = 19
 
 func main() {
-	fmt.Print(TwoSum(nums, target))
+	fmt.Print(IsHappy(n))
 }
