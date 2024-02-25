@@ -1,8 +1,28 @@
 package main
 
-import "unicode/utf8"
+import (
+	"sort"
+	"unicode/utf8"
+)
 
-func IsAnagram(s string, t string) bool {
+func IsStringAnagram(s, t string) bool {
+	if len(s) != len(t) {
+		return false
+	}
+
+	sortedS := SortString(s)
+	sortedT := SortString(t)
+	return sortedS == sortedT
+}
+
+func SortString(s string) string {
+	chars := []rune(s)
+	sort.Slice(chars, func(i, j int) bool { return chars[i] < chars[j] })
+
+	return string(chars)
+}
+
+func IsUnicodeAnagram(s string, t string) bool {
 	if len(s) != len(t) {
 		return false
 	}
