@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print(IsValidParentheses("(())"))
+	fmt.Print(LongestConsecutive([]int{100, 4, 200, 1, 3, 2}))
 }
