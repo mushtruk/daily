@@ -3,5 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print(LongestConsecutive([]int{100, 4, 200, 1, 3, 2}))
+	ms := NewMinStack()
+	ms.Push(4)
+	ms.Push(5)
+	ms.Push(1)
+	fmt.Print(ms.Top())
 }
