@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print(IsNumberPalindrome(313))
+	fmt.Print(MySqrt(16))
 }
