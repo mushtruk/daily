@@ -1,6 +1,6 @@
 package main
 
-func isSymmetric(root *TreeNode) bool {
+func IsSymmetric(root *TreeNode) bool {
 	if root == nil {
 		return true
 	}
