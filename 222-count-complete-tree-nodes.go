@@ -9,7 +9,7 @@ package main
 // 	Right *TreeNode
 // }
 
-func countNodes(root *TreeNode) int {
+func CountNodes(root *TreeNode) int {
 	if root == nil {
 		return 0
 	}
@@ -18,5 +18,5 @@ func countNodes(root *TreeNode) int {
 		return 0
 	}
 
-	return 1 + countNodes(root.Left) + countNodes(root.Right)
+	return 1 + CountNodes(root.Left) + CountNodes(root.Right)
 }
