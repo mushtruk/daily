@@ -4,5 +4,11 @@ import "fmt"
 
 func main() {
 
-	fmt.Print(Search([]int{4, 5, 6, 7, 0, 1, 2}, 0))
+	root := &TreeNode{Val: 4}
+	root.Left = &TreeNode{Val: 2}
+	root.Right = &TreeNode{Val: 6}
+	root.Left.Left = &TreeNode{Val: 1}
+	root.Left.Right = &TreeNode{Val: 3}
+
+	fmt.Println("Minimum Absolute Difference:", GetMinimumDifference(root))
 }
