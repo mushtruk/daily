@@ -1,14 +1,10 @@
 package main
 
-import "fmt"
-
 func main() {
+	l1 := CreateList([]int{2, 4, 3})
+	l2 := CreateList([]int{5, 6, 4})
 
-	root := &TreeNode{Val: 4}
-	root.Left = &TreeNode{Val: 2}
-	root.Right = &TreeNode{Val: 6}
-	root.Left.Left = &TreeNode{Val: 1}
-	root.Left.Right = &TreeNode{Val: 3}
+	result := AddTwoNumbers(l1, l2)
 
-	fmt.Println("Minimum Absolute Difference:", GetMinimumDifference(root))
+	PrintList(result)
 }
