@@ -1,10 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
-	l1 := CreateList([]int{1, 2, 4})
-	l2 := CreateList([]int{1, 3, 4})
-
-	mergedList := MergeTwoLists(l1, l2)
-
-	PrintList(mergedList)
+	fmt.Print(SearchRange([]int{5, 7, 7, 8, 8, 10}, 8))
 }
