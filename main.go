@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
-	PrintList(SortList(CreateList([]int{4, 2, 1, 3})))
+	fmt.Print(FindMin([]int{3, 4, 5, 1, 2}))
 }
